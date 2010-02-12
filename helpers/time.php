@@ -1,6 +1,14 @@
 <?php
+/**
+* Timezone-Helper
+*
+* @package        timezone
+* @author         Jeremy Bush
+* @copyright      (c) 2010 Jeremy Bush
+* @license        http://www.opensource.org/licenses/isc-license.txt
+*/
 
-class time {
+class time_Core {
 
 	public function set_tz_by_offset($offset)
 	{
