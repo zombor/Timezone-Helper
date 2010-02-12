@@ -1,0 +1,10 @@
+timezone helper
+--------
+
+# What is it
+
+A very simple Kohana helper to easily set and retreive a user's timezone. I use it on rndpass.com to remember the user's timezone for future visits.
+
+# How to use it
+
+Put it in your modules folder, add it to your config, and use display_zones() in your view, and set_tz_by_offset() in your controller to save the timezone.
